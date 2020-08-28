@@ -1,7 +1,7 @@
 {{ define "optin-campaign" }}
 
-<p>Hi {{`{{ .Subscriber.FirstName }}`}},</p>
-<p>You have been added to the following mailing lists:</p>
+<p>Hallo {{`{{ .Subscriber.FirstName }}`}},</p>
+<p>Sie haben sich für folgende Mailingliste(n) angemeldet:</p>
 <ul>
     {{ range $i, $l := .Lists }}
         {{ if eq .Type "public" }}
@@ -12,6 +12,6 @@
     {{ end }}
 </ul>
 <p>
-    <a class="button" {{ .OptinURLAttr }} class="button">Confirm subscription(s)</a>
+    <a class="button" {{ .OptinURLAttr }} class="button">Anmeldung bestätigen</a>
 </p>
 {{ end }}

@@ -76,8 +76,8 @@
     </div>
     
     <div class="footer" style="text-align: center;font-size: 12px;color: #888;">
-        <p>Don't want to receive these e-mails? <a href="{{ UnsubscribeURL }}" style="color: #888;">Unsubscribe</a></p>
-        <p>Powered by <a href="https://listmonk.app" target="_blank" style="color: #888;">listmonk</a></p>
+        <p>Keine weiteren E-Mails? Hier <a href="{{ UnsubscribeURL }}" style="color: #888;">abmelden</a></p>
+        <p>Powered by <a href="https://listmonk.app" target="_blank" style="color: #888;">listmonk</a> @ <a href="https://growcoaching.de" target="_blank">Grow - Supervision und Coaching</a></p>
     </div>
     <div class="gutter" style="padding: 30px;">&nbsp;{{ TrackView }}</div>
 </body>
